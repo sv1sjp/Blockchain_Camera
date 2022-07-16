@@ -23,6 +23,22 @@ LBRY:
 Presentation of Blockchain Camera in English
 Presentation of Blockchain Camera in Greek
 
+# Contribution:
+Blockchain Camera is an alive project 
+💰💵💲You can support this project by donating Crypto. ₿💰💵💲
+Bitcoin: bc1q6j959m3whh44ztr8k6p7545n5pzcsncple7qmy
+
+Ethereum: 0x3f27F05Ca28a5B5F876A3A7d435E2E852756F873
+
+Cardano: addr1qxewtm0y5yk2mgf93ct4ghguus2shu34fu786t62j3tv7296evenhmr0ltmx3hdyw4d6d8gj8qspry5pe3raaw4nu8as7jsr9l
+
+Monero: 46ewn3rgXMSceuEUEng1bze1RzG61rEiFV3hJ6VKuzvHU62jPntydJRBcFinQ62Pad8AvdoX9YbQcY5HKX3Cr3UQPkhiQ4L
+
+VeChain:0x3f27F05Ca28a5B5F876A3A7d435E2E852756F873
+
+Shiba:0x3f27F05Ca28a5B5F876A3A7d435E2E852756F873
+
+AIOZ:0x3f27F05Ca28a5B5F876A3A7d435E2E852756F873
 _____
 
 # Blockchain Camera Validator Tools User Manual:
@@ -38,13 +54,14 @@ Moreover, Blockchain Camera GUI needs PySimpleGUI library too. PySimpleGUI can b
 pip install PySimpleGUI
 ```
 ## Hashing a Video
-As has already mentioned before, Blockchain Camera hashes are created by using a
-SHA-512 hash function and then stored to Blockchain. As users, when we want to validate that a video is genuine, at first we have to download the video from a centralized center with the events that we want to validate if they really happened. 
+Blockchain Camera hashes are created by using a SHA-512 hash function and then stored to Blockchain. As users, when we want to validate that a video is genuine, at first we have to download the video from a centralized center with the events that we want to validate if they really happened. 
 We can hash a video by using sha512sum tool from GNU/Linux or other Unix like Operating Systems by typing:
 ```
 sha512sum $NAME_OF_FILE.mp4
 ```
 sha512sum tool will return a hash we can copy and then paste to a Blockchain Camera Validator Tool (GUI or CLI) in order to check if that hash really exists in Blockchain.
+
+## Blockchain Camera Validation Tool GUI 
 Blockchain Camera Validator Tool GUI is recommended to be used from normal users as it offers a nice-looking interface where users can interact with Blockchain Camera Smart-Contract very easily. However, in order to be functional, keep in mind that the script must be edited and a node must be added by user. Without a node, Blockchain Camera Validator Tool cannot interact with Blockchain. If you do not want to create your own Ethereum Node you can use a company’s node infrastructure, for example from Infura, and then paste the appropriate HTTPProvider link to w3 variable.
 
 Furthermore, user can very easily copy the video’s hash from the sha512sum command and paste it to Blockchain Camera Validator GUI and then press Enter. Blockchain Camera will download a full copy of the Blockchain Camera Smart-Contract’s and using basic Python function it will find out if the hash exists in the list. If the hash exists, the tool will return the message:
@@ -52,6 +69,8 @@ Furthermore, user can very easily copy the video’s hash from the sha512sum com
 
 If the video’s hash has not been sent to Blockchain, The Blockchain Validator Tool returns a message of “This hash is not genuine.”.
  ## Command Line version of Blockchain Camera Validation Tool
-Blockchain Camera Validator CLI is the backend version of the GUI version of the app. Blockchain Camera Validator Tool CLI comes as an easier command line-based tool in order to be implemented to other projects and extend its futures much easier. As the GUI version for being functional, user must add a node to the program. Blockchain Camera Validator Tool CLI works exact the same as the GUI. All the user has to do is to paste a hash as an input and the application will return if the hash exists to Blockchain Camera Smart-Contract. However, CLI mode has some special futures which are missing from GUI version.
-For Example, Blockchain Camera Validator Tool CLI supports multi hash validation. All we have to do is to create a new file at the same file with the Blockchain Camera Validator Tool CLI and paste one hash on each line. Then, we run the tool and we choose multiple and then we enter as an input the name of the file. File’s location must be on the same folder with the Blockchain Camera Validator CLI Application. Blockchain Camera Validator tool will check each hash if exists in the Blockchain or not and it will return the result.
+ Blockchain Camera Validator Tool CLI comes as an easier command line-based tool in order to be implemented to other projects and extend its futures much easier. As the GUI version for being functional, user must add a node to the program. Blockchain Camera Validator Tool CLI works exact the same as the GUI. All user has to do is to paste a hash as an input and the application will return if the hash exists to Blockchain Camera Smart-Contract. However, CLI mode has some special futures which are missing from GUI version.
+ 
+ ## Multiple hash checking with Blockchain Camera Validation Tool CLI
+Blockchain Camera Validator Tool CLI supports multi hash validation. All we have to do is to create a new file at the same file with the Blockchain Camera Validator Tool CLI and paste one hash on each line. Then, we run the tool and we choose multiple and then we enter as an input the name of the file. File’s location must be on the same folder with the Blockchain Camera Validator CLI Application. Blockchain Camera Validator tool will check each hash if exists in the Blockchain or not and it will return the result.
 
