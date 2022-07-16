@@ -9,7 +9,7 @@ Blockchain Camera  cames under the terms of the GNU General Public License versi
 
 
 __ 
-## Video Presentations
+## Video Presentations:
 
 YouTube:
 
@@ -25,7 +25,7 @@ Presentation of Blockchain Camera in Greek
 
 _____
 
-## Getting Started
+## Getting Started:
 For more information about how it works and how you can create your own Blockchain Camera and implementation ideas, reading the full paper is recommended. 
 Click here
 
