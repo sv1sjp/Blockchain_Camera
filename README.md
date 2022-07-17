@@ -5,9 +5,12 @@
 <p align="center"><img src="https://github.com/sv1sjp/Blockchain_Camera/blob/main/icons/logo.png" width="300">
   
 ### Blockchain Camera provides an easy and safe way to capture and guarantee the existence of videos reducing the impact of modified videos as it can preserve the integrity and validity of videos using Blockchain Technology. Blockchain Camera sends to Ethereum Network the hash of each video and the time the video has been recorded in order to be able validate that a video is genuine and hasn't been modified using a Blockchain Camera Validation Tool. 
-Blockchain Camera  cames under the terms of the GNU General Public License version 3 or any later version without warranty.
 
-Created by Dimitris Vagiakakos @sv1sjp 
+Blockchain Cameras works in any GNU/Linux Distribution that supports ffmpeg, Python3 and Web3.py
+
+```
+Created by Dimitris Vagiakakos @sv1sjp
+```
 
 ## Video Presentations:
 
@@ -23,7 +26,6 @@ Presentation of Blockchain Camera in English
 
 Presentation of Blockchain Camera in Greek
 
-_____
 
 ## Getting Started:
 For more information about how it works and how you can create your own Blockchain Camera and implementation ideas, reading the full paper is recommended. 
@@ -43,9 +45,8 @@ Contents of the paper:
 - User Manual for Blockchain Camera Validation Tools (GUI and CLI)
 - The cost of building your own Blockchain Camera stand-alone device
 - Extra Implemedantion Ideas
+- Blockchain Camera Hardening
 
- 
-___
 
 # Contribution:
 💰💵💲Blockchain Camera is a new Open-Source Project. You can support this project by donating Crypto. ₿💰💵💲
@@ -58,4 +59,9 @@ Cardano: addr1qxewtm0y5yk2mgf93ct4ghguus2shu34fu786t62j3tv7296evenhmr0ltmx3hdyw4
 
 Monero: 46ewn3rgXMSceuEUEng1bze1RzG61rEiFV3hJ6VKuzvHU62jPntydJRBcFinQ62Pad8AvdoX9YbQcY5HKX3Cr3UQPkhiQ4L
 
+New implementation ideas are welcome :) - Share the beaty of Open-Source.
+
  <p align="center"><img src="https://github.com/sv1sjp/Blockchain_Camera/blob/main/icons/proof_of_concept.png" width="250">
+ 
+## License:
+### Blockchain Camera  cames under the terms of the GNU General Public License version 3 or any later version without warranty.
