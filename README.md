@@ -63,5 +63,5 @@ New implementation ideas are welcome :) - Share the beaty of Open-Source.
 
  <p align="center"><img src="https://github.com/sv1sjp/Blockchain_Camera/blob/main/icons/proof_of_concept.png" width="250">
  
-## License:
-### Blockchain Camera  cames under the terms of the GNU General Public License version 3 or any later version without warranty.
+# License:
+### Blockchain Camera cames under the terms of the GNU General Public License version 3 or any later version without warranty.
