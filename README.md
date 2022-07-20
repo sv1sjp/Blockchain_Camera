@@ -29,7 +29,7 @@ Created by Dimitris Vagiakakos @sv1sjp
 
 ## Getting Started:
 For more information about how it works and how you can create your own Blockchain Camera and implementation ideas, reading the full paper is recommended. 
-Click here
+[Click here](https://github.com/sv1sjp/Blockchain_Camera/blob/main/Blockchain_Camera.pdf)
 
 Contents of the paper:
 - The idea of Blockchain Camera
