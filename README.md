@@ -16,15 +16,15 @@ Created by Dimitris Vagiakakos @sv1sjp
 
 ### YouTube:
 
-Presentation of Blockchain Camera in English
+[Presentation of Blockchain Camera in English](https://youtu.be/1CvG0aa9PdM)
 
-Presentation of Blockchain Camera in Greek
+[Presentation of Blockchain Camera in Greek](https://youtu.be/7N7_W0pdbcs)
 
 ### LBRY:
 
-Presentation of Blockchain Camera in English
+[Presentation of Blockchain Camera in English](https://odysee.com/@PenguinDodgers/Blockchain_Camera)
 
-Presentation of Blockchain Camera in Greek
+[Presentation of Blockchain Camera in Greek](https://odysee.com/@PenguinDodgers/Blockchain_Camera_GR)
 
 
 ## Getting Started:
