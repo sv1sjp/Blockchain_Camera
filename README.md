@@ -36,7 +36,7 @@ Contents of the paper:
 - How Blockchain Camera works
 - Blockchain Camera implementation ideas
 - Blockchain Camera implementation ideas in European Union
-- Blockchaim Camera Tools and Hardware Recommendations
+- Blockchain Camera Tools and Hardware Recommendations
 - How Solidity code works
 - How Blockchain Camera Works
 - How Blockchain Camera Validation Tools (GUI and CLI) work
